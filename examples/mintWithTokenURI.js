@@ -36,6 +36,16 @@ const accessContract = (contractAddress, abi, signer) => {
   }
 };
 
+/**
+ * mint function to mint using ERC721URIRoyalty Contract
+ * @param {*} mnemonic
+ * @param {*} address
+ * @param {*} tokenURI
+ * @param {*} providerDetails
+ * @param {*} contractDetails
+ * @returns
+ */
+
 const mint = async (
   mnemonic,
   address,
