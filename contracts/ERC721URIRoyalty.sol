@@ -36,7 +36,7 @@ contract ERC721URIRoyalty is ERC721URIStorage, ERC2981, Ownable {
     }
 
     /**
-        Set up contact metadata - getter and setter
+        Set up contact metadata - getter and setter -- used by opensea
      */
 
     function contractURI() public view returns (string memory) {
