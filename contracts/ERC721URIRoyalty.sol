@@ -55,6 +55,7 @@ contract ERC721URIRoyalty is ERC721URIStorage, ERC2981, Ownable {
         uint256 tokenId = tokenId_.current();
         _safeMint(_to, tokenId);
         _setTokenURI(tokenId, _tokenURI);
+        tokenId_.increment();
     }
 
     /**
