@@ -1,0 +1,6 @@
+{
+    "name": "Test collection",
+    "description":"Test collection to check this works",
+    "seller_fee_basis_points": 250,
+    "fee_recipient": "0x566a6469A236b3782aa0901DAec363e19797A4CD" 
+  }
